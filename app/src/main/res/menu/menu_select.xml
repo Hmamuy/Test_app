@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.com.lotteryapp.MainActivity">
+    <item
+        android:id="@+id/select_edit"
+        android:orderInCategory="100"
+        android:title="แก้ไข"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/select_del"
+        android:orderInCategory="100"
+        android:title="ลบ"
+        app:showAsAction="never" />
+</menu>

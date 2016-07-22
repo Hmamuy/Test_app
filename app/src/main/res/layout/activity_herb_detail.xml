@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bbb2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="#82ffffff">
+            <ImageView
+                android:id="@+id/image_herb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/icon1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/h1"
+                android:textColor="#060006"
+                android:text="สรรพคุณ : "/>
+            <TextView
+                android:id="@+id/text_herb_detail_descript"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#060006"
+                android:text="Description"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/h1"
+                android:textColor="#060006"
+                android:text="วิธีใช้ : "/>
+            <TextView
+                android:id="@+id/text_herb_detail_howto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#060006"
+                android:text="How To"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/h1"
+                android:textColor="#060006"
+                android:text="แผนที่ : "/>
+            <fragment
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                class="com.google.android.gms.maps.SupportMapFragment" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

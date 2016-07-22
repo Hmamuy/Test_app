@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ubru.sabaipon.teerawat.apichat.herbbanban">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".MainMenu"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".MenuMemberActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".MenuExpertActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".MenuAdmintActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".ListHerb"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".ListMember"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".ListExpert"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".EditUserActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".ProfileActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+
+        <activity
+            android:name=".HubActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".ReadAllHerbActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".HerbListView"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail" />
+        <activity android:name=".UpdateHerb" />
+        <activity android:name=".ApproveHerb" />
+        <activity
+            android:name=".UpdateMapsActivity"
+            android:label="@string/title_activity_update_maps" />
+        <activity android:name=".Resd1" />
+        <activity android:name=".Rasd2" />
+        <activity android:name=".Name1" />
+        <activity android:name=".HerbName" />
+        <activity android:name=".Name2"></activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/api_key" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

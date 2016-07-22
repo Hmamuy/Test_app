@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bbb2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:background="#82ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView15"
+                android:textSize="@dimen/h1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#060006" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView6"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/up_hub1"
+                android:id="@+id/textView16"
+                android:textSize="@dimen/h1"
+                android:layout_marginTop="15dp"
+                android:textColor="#060006" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView17"
+                android:layout_marginLeft="20dp"
+                android:textColor="#060006" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/up_hub2"
+                android:id="@+id/textView18"
+                android:textSize="@dimen/h1"
+                android:layout_marginTop="15dp"
+                android:textColor="#060006" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView19"
+                android:layout_marginLeft="20dp"
+                android:textColor="#060006" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="20dp">
+
+                <fragment
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:id="@+id/map" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">สมุนไพรไทย</string>
+    <string name="show_name">Name:</string>
+    <string name="show_surname">Surname:</string>
+
+    <string name="api_key">AIzaSyCRoy4X2i0t7nwkGCwx84DiFvsu1aiShr8</string>
+
+    <string name="title_main">เข้าสู่ระบบ</string>
+    <string name="user">User</string>
+    <string name="pass">Password</string>
+    <string name="user1">User : </string>
+    <string name="pass1">Password : </string>
+    <string name="signin">เข้าสู่ระบบ</string>
+    <string name="signup">สมัครสมาชิก</string>
+    <string name="signup_Member">เพิ่มสมาชิก</string>
+    <string name="signup_Expert">เพิ่มผู้เชี่ยวชาญ</string>
+    <string name="guest">ข้อมูลสมุนไพร</string>
+
+    <string name="name">ชื่อ : </string>
+    <string name="currency">สกุล : </string>
+    <string name="phone">เบอร์โทรศัพท : </string>
+    <string name="address">ที่อยู่ : </string>
+    <string name="title_activity_detail">Map</string>
+
+    <string name="up_main">เพิ่มข้อมูลสมุนไพร</string>
+    <string name="up_hub">ชื่อสมุนไพร</string>
+    <string name="up_hub1">สรรพคุณ : </string>
+    <string name="up_hub2">วิธีใช้ :</string>
+    <string name="up_hub3">พิกัด :</string>
+    <string name="up_hub11">สรรพคุณ</string>
+    <string name="up_hub22">วิธีใช้</string>
+    <string name="up_hub33">พิกัด</string>
+    <string name="up_hub4">ชื่อทางวิทยา"\n"ศาสตร์</string>
+    <string name="up_hub5">ชื่อท้องถิ่น</string>
+
+    <string name="A1">ประเภท</string>
+    <string name="A2">ใช้ราก</string>
+    <string name="A3">ใช้ดอก</string>
+    <string name="A4">ใช้ผล</string>
+    <string name="A5">ใช้ลำต้น</string>
+    <string name="A6">ใช้ใบ</string>
+
+    <string name="B1">ภาค</string>
+    <string name="B2">กลาง</string>
+    <string name="B3">เหนือ</string>
+    <string name="B4">ตะวันออก"\n"เฉียงเหนือ</string>
+    <string name="B5">ใต้</string>
+    <string name="B6">ตะวันออก</string>
+    <string name="B7">ตะวันตก</string>
+
+
+    <string name="ok">ตกลง</string>
+    <string name="title_activity_update_maps">Map</string>
+
+    <string name="herb_name">ผู้แสดง : </string>
+    <string name="member_name">ชื่อ : </string>
+    <string name="member_surname">นามสกุล : </string>
+    <string name="member_tel">เบอร์โทรศัพท์ : </string>
+    <string name="member_address">ที่อยู่ : </string>
+
+    <string name="del_list">ลบข้อมูลเรียบร้อยแล้ว</string>
+    <string name="edit_list">แก้ไขข้อมูลเรียบร้อยแล้ว</string>
+
+    <string name="edit">แก้ไข</string>
+    <string name="edit_member">แก้ไขข้อมูลสมาชิก</string>
+    <string name="edit_expert">แก้ไขข้อมูลผู้เชี่ยวชาญ</string>
+
+    <string name="profile">ข้อมูลส่วนตัว</string>
+    <string name="edit_profile">แก้ไขข้อมูลส่วนตัว</string>
+
+</resources>
